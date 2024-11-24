@@ -48,7 +48,7 @@ function FinishTest(){
 
     document.getElementById("FinishTest").remove();
 
-    document.getElementById("TestFinisher").insertAdjacentHTML("beforeend", `<p>Ваш результат: ${FullCorrect}/${List.length}</p>`)
+    document.getElementById("TestFinisher").insertAdjacentHTML("beforeend", `<p>Ваш результат: ${FullCorrect}/${List.length}</p><p><a href="/">Вернуться на главную страницу</a></p><p><a href="Test.html">Попробовать ещё раз</a></p>`)
 }
 
 document.getElementById("FinishTest").onclick = FinishTest
